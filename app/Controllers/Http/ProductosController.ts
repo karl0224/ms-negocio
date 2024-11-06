@@ -40,6 +40,7 @@ export default class ProductosController {
         theProducto.nombre = body.nombre;
         theProducto.descripcion = body.descripcion;
         theProducto.fechaVencimiento = body.fechaVencimiento;
+        theProducto.cliente_id = body.cliente_id;
         return await theProducto.save();
     }
 

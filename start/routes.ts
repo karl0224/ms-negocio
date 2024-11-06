@@ -27,3 +27,5 @@ Route.get('/', async () => {
 import "./routes/productos"
 import "./routes/categorias"
 import "./routes/categoriasproductos"
+import "./routes/clientes"
+import "./routes/lotes"
